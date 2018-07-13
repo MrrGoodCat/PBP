@@ -7,6 +7,10 @@
                [actions]=""
                [iconPath]="'assets/PP-icon.svg'"></mcr-top-bar>
   </div>
-  <cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>
+  <pbp-side-bar>
+    <pbp-database></pbp-database>
+    <pbp-database></pbp-database>
+  </pbp-side-bar>
+  <!--<cuppa-slidemenu [menulist]="menuItemsArray" (open)="onMenuOpen()" (close)="onMenuClose()" (onItemSelect)="onItemSelect($event)"></cuppa-slidemenu>-->
 </div>
 
